@@ -29,7 +29,7 @@ Material:
     - _BUILTIN_QueueOffset: 0
     - _Detail_scale: 20
     - _Detail_speed: 5
-    - _Emision_STR: 1
+    - _Emision_STR: 3
     - _Height: 0.01
     - _Scale: 17
     - _SpeedX: 0.001
