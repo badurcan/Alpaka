@@ -27,10 +27,10 @@ Material:
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _Detail_scale: 20
-    - _Detail_speed: 5
-    - _Emision_STR: 3
-    - _Height: 0.01
+    - _Detail_scale: 10
+    - _Detail_speed: 20
+    - _Emision_STR: 2
+    - _Height: 0.1
     - _Scale: 17
     - _SpeedX: 0.001
     - _SpeedY: 0.05

@@ -1,0 +1,24 @@
+
+{
+  "ShaderGraph": {
+    "Properties": {
+      "Lava_Color": { "Type": "Color", "Value": [1, 0.3, 0, 1] },
+      "Detail_Scale": { "Type": "Float", "Value": 5 },
+      "Speed": { "Type": "Float", "Value": 1 }
+    },
+    "Nodes": [
+      { "Type": "Position", "Space": "World" },
+      { "Type": "NormalVector", "Space": "World" },
+      { "Type": "SimpleNoise" },
+      { "Type": "Multiply" },
+      { "Type": "Add" },
+      { "Type": "Split" },
+      { "Type": "Combine" },
+      { "Type": "Abs" }
+    ],
+    "Outputs": {
+      "BaseColor": "TriplanarNoiseOutput",
+      "Emission": "TriplanarLavaGlow"
+    }
+  }
+}
